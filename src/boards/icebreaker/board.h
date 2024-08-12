@@ -32,9 +32,8 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER         1
-#define LED_PRIMARY_PIN     _PINNUM(1, 0)   // green
-//#define LED_SECONDARY_PIN   _PINNUM(1, 2)   // blue
-#define LED_STATE_ON        0
+#define LED_PRIMARY_PIN     _PINNUM(1, 2)   // blue
+#define LED_STATE_ON        1
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
@@ -45,7 +44,7 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER    "matthijsmuller"
+#define BLEDIS_MANUFACTURER    "matthijs_muller"
 #define BLEDIS_MODEL           "Icebreaker"
 
 //--------------------------------------------------------------------+

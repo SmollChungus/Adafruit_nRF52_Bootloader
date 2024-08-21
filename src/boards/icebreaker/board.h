@@ -33,7 +33,7 @@
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER         2
 #define LED_PRIMARY_PIN     _PINNUM(1, 10)   // dummy - DNP
-#define LED_PRIMARY_PIN     _PINNUM(1, 2)   // blue
+#define LED_SECONDARY_PIN     _PINNUM(1, 2)   // blue
 #define LED_STATE_ON        0
 /*------------------------------------------------------------------*/
 /* BUTTON

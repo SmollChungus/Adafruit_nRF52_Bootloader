@@ -202,3 +202,6 @@ pip install intelhex
 
 Make sure that `nrfjprog` is available from the command-line. This binary is
 part of Nordic's nRF5x Command Line Tools.
+
+
+// action test //
